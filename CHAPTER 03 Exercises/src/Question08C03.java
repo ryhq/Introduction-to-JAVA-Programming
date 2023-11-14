@@ -8,6 +8,7 @@ public class Question08C03 {
             number1 = getNumbers.nextInt();
             number2 = getNumbers.nextInt();
             number3 = getNumbers.nextInt();
+            
         }
         smallest = Math.min(Math.min(number1, number2), number3);
         largest = Math.max(Math.max(number1, number2), number3);
