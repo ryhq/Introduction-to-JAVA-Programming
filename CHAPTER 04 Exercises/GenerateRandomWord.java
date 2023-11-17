@@ -16,7 +16,8 @@ public class GenerateRandomWord {
                         (int)consonant != 79 && // Excluding letter O
                         (int)consonant != 85 && // Excluding letter U
                         (int)consonant != 81 && // Excluding letter Q
-                        (int)consonant != 88    // Excluding letter X
+                        (int)consonant != 88 && // Excluding letter X
+                        (int)consonant != 67    // Excluding letter C
                         ) {
                         noConstant = false;
                         randomWord += consonant; 
