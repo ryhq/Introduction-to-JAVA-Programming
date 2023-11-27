@@ -11,7 +11,7 @@ public class Question21C02 {
             System.out.print("\nEnter number of years : ");
             years = getData.nextDouble();
         }
-        futureInvestmentValue = investimentAmount * Math.pow(( 1 + ( annualRate / 12 ) ), (years * 12));
+        futureInvestmentValue = investimentAmount * Math.pow(( 1 + ( annualRate / 100 ) / 12 ), (years * 12));
         System.out.println("\nAccumulated Value : " + futureInvestmentValue + "\n");
     }
 }
